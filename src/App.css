@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 376px) {
+  body{
+    background-image: url("./assets/images/pattern-bg-mobile.png");
+    background-repeat: no-repeat;
+  } 
+}
