@@ -66,17 +66,17 @@ function App() {
           <p className='text-[12px] text-DarkGray font-semibold'>IP ADDRESS</p>
           <p className='text-[20px] font-semibold'>{ipData?.ip || '---'}</p>
         </div>
-        <div className='w-[1px] h-[80px] border-r-[1px] border-DarkGray'></div>
+        <div className='w-[1px] h-[80px] border-r-[1px] border-DarkGray hidden laptop:block'></div>
         <div className='laptop:w-[25%] flex flex-col justify-center items-center my-2'>
           <p className='text-[12px] text-DarkGray font-semibold'>LOCATION</p>
           <p className='text-[20px] font-semibold'>{ipData?.location?.city}, {ipData?.location?.country} {ipData?.location?.postalCode || ''}</p>
         </div>
-        <div className='w-[1px] h-[80px] border-r-[1px] border-DarkGray'></div>
+        <div className='w-[1px] h-[80px] border-r-[1px] border-DarkGray hidden laptop:block'></div>
         <div className='laptop:w-[25%] flex flex-col justify-center items-center my-2'>
           <p className='text-[12px] text-DarkGray font-semibold'>TIMEZONE</p>
           <p className='text-[20px] font-semibold'>{ipData?.location?.timezone || '---'}</p>
         </div>
-        <div className='w-[1px] h-[80px] border-r-[1px] border-DarkGray'></div>
+        <div className='w-[1px] h-[80px] border-r-[1px] border-DarkGray hidden laptop:block'></div>
         <div className='laptop:w-[25%] flex flex-col justify-center items-center my-2'>
           <p className='text-[12px] text-DarkGray font-semibold'>ISP</p>
           <p className='text-[20px] font-semibold text-center'>{ipData?.isp || '---'}</p>
